@@ -3,12 +3,17 @@
 }
 
 body {
-    background-image: url(img/bg/rainway.90.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 
-body#home {
+body#talks,
+body#media {
+    background-image: url(img/bg/rainway.90.jpg);
+}
+
+body#home,
+body#contact {
     background-image: url(img/bg/tassie.90.jpg);
 }
 
