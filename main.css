@@ -3,9 +3,13 @@
 }
 
 body {
-    background-image: url(img/tassie.84.jpg);
+    background-image: url(img/rainway.90.jpg);
     background-size: cover;
     background-attachment: fixed;
+}
+
+body#home {
+    background-image: url(img/tassie.90.jpg);
 }
 
 header {
@@ -15,6 +19,10 @@ header {
 
 main {
     margin-top: 2em;
+}
+
+main .card + .card {
+    margin-top: 1em;
 }
 
 #home h1 {
@@ -27,6 +35,7 @@ main {
 
 footer {
     margin-top: 2em;
+    margin-bottom: 1em;
 }
 
 footer .card {
