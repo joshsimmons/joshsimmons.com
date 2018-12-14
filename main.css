@@ -2,13 +2,43 @@
     font-family: sans-serif;
 }
 
+body {
+    background-image: url(img/tassie.84.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 header {
     box-shadow: 0px 0px 1em #333333;
     z-index: 10;
 }
 
-body {
-    background-image: url(img/tassie.84.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+main {
+    margin-top: 2em;
+}
+
+#home h1 {
+    font-size: 2rem;
+}
+
+#home h2 {
+    font-size: 1.25rem;
+}
+
+footer {
+    margin-top: 2em;
+}
+
+footer .card {
+    background-color: rgba(1,1,1,.5);
+    color: #ffffff;
+}
+
+footer .card p {
+    text-align: right;
+    margin-bottom: 0;
+}
+
+footer .card p a {
+    color: #ffffff;
 }
