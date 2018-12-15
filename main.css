@@ -30,6 +30,10 @@ main .card + .card {
     margin-top: 1em;
 }
 
+.card .card-header h1 {
+    margin-bottom: 0;
+}
+
 #home h1 {
     font-size: 2rem;
 }
