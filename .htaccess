@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} !^joshsimmons\.com [NC]
+RewriteRule ^(.*)$ https://joshsimmons.com/$1 [L,R=301]
