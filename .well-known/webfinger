@@ -1,0 +1,26 @@
+// 20221127205055
+// https://joshsimmons.com/.well-known/webfinger
+
+{
+  "subject": "acct:josh@josh.tel",
+  "aliases": [
+    "https://josh.tel/@josh",
+    "https://josh.tel/users/josh"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://josh.tel/@josh"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://josh.tel/users/josh"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://social.coop/authorize_interaction?uri={uri}"
+    }
+  ]
+}
